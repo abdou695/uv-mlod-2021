@@ -4,13 +4,13 @@
 
 typedef struct {
     int nbreMat;//nombre de matrices
-    int** data;
+    int** data;//données des matrices
 } MatrixArray;
 
 typedef struct {
     int nbreLig; //nombre de lignes
-    int nbreCol; // nombre de colonnes
-    int** data;
+    int nbreCol; //nombre de colonnes
+    int** data;//données des matrices
 } Matrix;
 
 Matrix* creer_matrix(int nbre_lig, int nbre_col) {
